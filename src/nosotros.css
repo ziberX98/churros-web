@@ -1,8 +1,8 @@
 :root{
-    --azulC:#6DB2FA;
-    --azul:#2991FD;
+    --rojoclaro:#F8B8B8;
+    --vinotinto:#BD2222;
+    --vino:#800000;
     --blanco:#FFFFFF;
-
 }
 html {
     font-size: 62.5%;
@@ -11,7 +11,7 @@ html {
 
 }
 .boxcontainer{
-    background-image: linear-gradient(to top, var(--azulC) 0%, var(--blanco) 60%);
+    background-image: linear-gradient(to top, var(--blanco) 0%, var(--rojoclaro) 60%);
 }
 .bgimgnos{
     background-image: url(../public/chocolatedchurros.jpg);
@@ -30,9 +30,9 @@ html {
     margin-left: 200px;
     margin-right: 200px;
     background-color: #FFFFFF;
-    -webkit-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
-    -moz-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
-    box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    -webkit-box-shadow: 10px 10px 12px -3px rgba(235,158,158,1);
+    -moz-box-shadow: 10px 10px 12px -3px rgba(235,158,158,1);
+    box-shadow: 10px 10px 12px -3px rgba(235,158,158,1);
     border-radius: 1rem;
  
 }

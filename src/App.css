@@ -1,6 +1,7 @@
 :root{
-    --azulC:#6DB2FA;
-    --azul:#2991FD;
+    --rojoclaro:#F8B8B8;
+    --vinotinto:#BD2222;
+    --vino:#800000;
     --blanco:#FFFFFF;
 
 }
@@ -12,7 +13,7 @@ html {
 .nav-principal{
     display: flex;
     flex-direction: column;
-    background-color: #6DB2FA;
+    background-color: var(--vinotinto);
     
 }
 @media (min-width: 768px) {
@@ -35,17 +36,17 @@ html {
     
 }
 .nav-principal a:hover{
-    background-color: var(--azul);
+    background-color: var(--vino);
     font-weight: bolder;
     border-radius: 0.5rem;
 }
 
 .App{
-    background-image: linear-gradient(to top, var(--azulC) 0%, var(--blanco) 60%);
+    background-image: linear-gradient(to top, var(--blanco) 0%, var(--rojoclaro) 60%);
 }
 .logonav{
     height: auto;
-    background-color: var(--azulC);
+    background-color: var(--rojoclaro);
     
 }
 .topbar{

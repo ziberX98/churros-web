@@ -1,3 +1,10 @@
+:root{
+    --rojoclaro:#F8B8B8;
+    --vinotinto:#BD2222;
+    --vino:#800000;
+    --blanco:#FFFFFF;
+
+}
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -15,14 +22,14 @@ html {
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: aliceblue;
+    background-color: var(--blanco);
     font-size: 1.5rem;
     padding: 0%;
     margin-left: 200px;
     margin-right: 200px;
-    -webkit-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
-    -moz-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
-    box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    -webkit-box-shadow: 10px 10px 12px -3px rgba(235,158,158,1);
+    -moz-box-shadow: 10px 10px 12px -3px rgba(235,158,158,1);
+    box-shadow: 10px 10px 12px -3px rgba(235,158,158,1);
     border-radius: 1rem;
     
 }
