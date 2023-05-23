@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+    
+}
+.bgimgproduct{
+    background-image: url(../public/productos1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    
+}
+.productContainer{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aliceblue;
+    font-size: 1.5rem;
+    padding: 0%;
+    margin-left: 200px;
+    margin-right: 200px;
+    -webkit-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    -moz-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    border-radius: 1rem;
+    
+}
+.imagenp{
+    width: 20rem;
+    height: 20rem;
+}
+.product{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: 'Merriweather', serif;
+
+}
+.btn{
+    width:8rem;
+    height: 4rem;
+}

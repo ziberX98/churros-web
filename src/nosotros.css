@@ -1,0 +1,44 @@
+:root{
+    --azulC:#6DB2FA;
+    --azul:#2991FD;
+    --blanco:#FFFFFF;
+
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+
+}
+.boxcontainer{
+    background-image: linear-gradient(to top, var(--azulC) 0%, var(--blanco) 60%);
+}
+.bgimgnos{
+    background-image: url(../public/chocolatedchurros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;   
+}
+.boxdescri{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    padding: 0%;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    -moz-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    border-radius: 1rem;
+ 
+}
+.mision{
+    margin-bottom: 5rem;
+}
+.descripcionos{
+    margin: 25px;
+}

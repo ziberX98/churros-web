@@ -1,0 +1,90 @@
+:root{
+    --azulC:#6DB2FA;
+    --azul:#2991FD;
+    --blanco:#FFFFFF;
+
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+.container {
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+.bgimg{
+    background-image: url(../public/churrobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    
+}
+
+.descripcion1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+.titulo1{
+    margin: 0%;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10rem;
+}
+.bgtitulo{
+    width: 100%;
+    height: 100%;
+    display: flex;/** Para centrar todo verticalmente **/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    
+}
+.shadowcontainer{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+   
+
+}
+.shadowback{
+    -webkit-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    -moz-box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    box-shadow: 10px 10px 25px -7px rgba(9,40,168,1);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.contenedor{
+    background-image: linear-gradient(to top, var(--azulC) 0%, var(--blanco) 60%);
+}
+.desciwsp{
+    font-weight: bold;
+}
+.num{
+    font-weight: 300;
+}
+
+.buttonwspbox{
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    
+}
+.custombtn{
+    min-width: 15%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
