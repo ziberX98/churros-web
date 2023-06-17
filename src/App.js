@@ -1,4 +1,5 @@
 import "./App.css";
+import React, {useState} from "react"
 import Inicio from "./Inicio";
 import Nosotros from "./nosotros";
 import Productos from "./productos";
@@ -7,10 +8,18 @@ import "@fortawesome/fontawesome-free/css/fontawesome.css";
 import "@fortawesome/fontawesome-free/css/solid.css";
 import "@fortawesome/fontawesome-free/css/regular.css";
 import "@fortawesome/fontawesome-free/css/brands.css";
+import ModalUser from "./components/ModalUser";
 
 function App() {
+
+  const [visible, setVisible] = useState(false)
+
+  const toggle = () => setVisible(!visible)
+
   return (
     <div className="App">
+      <ModalUser visible={visible} toggle={toggle}/>
+
       <div className="logonav">
         <div className="topbar">
           <div className="redes">
@@ -18,7 +27,7 @@ function App() {
             <i class="fa-brands fa-facebook icon2"></i>
           </div>
           <img className="imglogo" src="/Licius1.png"></img>
-          <i class="fa-solid fa-user icon3"></i>
+          <i onClick={toggle} class="fa-solid fa-user icon3"></i>
         </div>
       </div>
       <BrowserRouter className="App-header">

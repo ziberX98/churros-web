@@ -11,7 +11,7 @@ const Inicio = () => {
     <div className="contenedor">
       <div className="bgimg">
         <div className="bgtitulo">
-          <h1 className="titulo1">Somos Churrolicius</h1>
+          <h1 className="titulo1">SOMOS CHURROLICOUS</h1>
         </div>
       </div>
 
